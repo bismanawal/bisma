@@ -1,0 +1,23 @@
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print("hi)
+...       
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print("hi")
+...       
+hi
+>>>  a=3
+... >>> b=2
+... >>> sum=a+b
+... >>> print(sum)
+...       
+SyntaxError: unexpected indent
+>>> a = 3
+...       
+>>> b = 2
+...       
+>>> sum = a + b
+...       
+>>> print(sum)
+...       
+5
